@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class MainTest {
     @Test
-    public void test() {
+    public void test() throws NoSuchMethodException {
         assertEquals(false, Main.compare(123, 456));
         assertEquals(true, Main.compare(123, 123));
         assertEquals(false, Main.compare(123, null));
